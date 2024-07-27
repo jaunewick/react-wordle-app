@@ -3,8 +3,8 @@ import { useState } from 'react'
 const useWordle = (solution) => {
     const [currentGuess, setCurrentGuess] = useState('')
     const [turn, setTurn] = useState(0)
-    const [history, setHistory] = useState(['hello', 'ninja'])
-    const [guesses, setGuesses] = useState([])
+    const [history, setHistory] = useState([])
+    const [guesses, setGuesses] = useState([...Array(6)])
     const [isCorrect, setIsCorrect] = useState(false)
 
     const formatGuess = () => {
@@ -16,7 +16,7 @@ const useWordle = (solution) => {
                 formattedGuess[i].color = 'green'
                 // Prevent double matching
                 solutionArray[i] = null
-            } 
+            }
         })
 
         formattedGuess.forEach((l, i) => {
@@ -28,6 +28,25 @@ const useWordle = (solution) => {
         })
 
         return formattedGuess
+    }
+
+    const addNewGuess = (formattedGuess) => {
+        if (currentGuess == solution) {
+            setIsCorrect(true)
+        }
+
+        setGuesses(prevGuesses => {
+            let newGuesses = [...prevGuesses]
+            newGuesses[turn] = formattedGuess
+            return newGuesses
+        })
+
+        setHistory(prevHist => [...prevHist, currentGuess])
+
+        setTurn(prevTurn => prevTurn + 1)
+
+        setCurrentGuess('')
+
     }
 
     const handleKeydown = ({ key }) => {
@@ -62,6 +81,7 @@ const useWordle = (solution) => {
             }
 
             const formatted = formatGuess()
+            addNewGuess(formatted)
             console.log(formatted);
         }
     }
@@ -70,7 +90,11 @@ const useWordle = (solution) => {
     return {
         currentGuess,
         handleKeyup,
-        handleKeydown
+        handleKeydown,
+        turn,
+        history,
+        guesses,
+        isCorrect
     }
 }
 
