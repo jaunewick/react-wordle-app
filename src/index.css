@@ -15,3 +15,21 @@ h1 {
   margin: 0 0 30px 0;
   color: #333;
 }
+
+.cursor {
+  padding: 0 2px;
+  width: 1px;
+  height: 20px;
+  background-color: rgba(144, 144, 144, 0.5);
+  animation: blink 1s step-start infinite;
+}
+
+.visible {
+  visibility: visible;
+}
+
+@keyframes blink {
+  50% {
+    visibility: hidden;
+  }
+}
