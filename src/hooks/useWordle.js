@@ -9,7 +9,7 @@ const useWordle = (solution) => {
 
     const formatGuess = () => {
         let solutionArray = [...solution]
-        let formattedGuess = [...currentGuess].map(l => { return { key: l, color: 'grey' } })
+        let formattedGuess = [...currentGuess.toLowerCase()].map(l => { return { key: l, color: 'grey' } })
 
         formattedGuess.forEach((l, i) => {
             if (solutionArray[i] === l.key) {
