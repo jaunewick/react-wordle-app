@@ -4,7 +4,7 @@ import Grid from './Grid'
 import Keypad from './Keypad'
 
 export default function Wordle({ solution }) {
-    const { currentGuess, handleKeyup, handleKeydown, turn, guesses, isCorrect } = useWordle(solution)
+    const { currentGuess, handleKeyup, handleKeydown, turn, guesses, isCorrect, usedKeys } = useWordle(solution)
 
     useEffect(() => {
         window.addEventListener('keyup', handleKeyup)
@@ -25,7 +25,7 @@ export default function Wordle({ solution }) {
             <div>Solution - {solution}</div>
             <div>Current Guess - {currentGuess}</div>
             <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
-            <Keypad />
+            <Keypad usedKeys={usedKeys} />
         </div>
     )
 }
