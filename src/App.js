@@ -3,6 +3,7 @@ import Wordle from "./components/Wordle";
 
 function App() {
   const [solution, setSolution] = useState(null)
+
   useEffect(() => {
     fetch('http://localhost:4000/solutions')
       .then(res => res.json())
@@ -11,9 +12,10 @@ function App() {
         setSolution(randomSolution.word)
       })
   }, [setSolution])
+
   return (
     <div className="App">
-      <h1>W O R D L E</h1>
+      <h1>WORDLE</h1>
       {solution && <Wordle solution={solution} />}
     </div>
   );
