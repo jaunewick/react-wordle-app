@@ -7,6 +7,7 @@ const useWordle = (solution) => {
     const [guesses, setGuesses] = useState([...Array(6)])
     const [isCorrect, setIsCorrect] = useState(false)
     const [usedKeys, setUsedKeys] = useState({})
+    const [showSolution, setShowSolution] = useState(false)
 
     const formatGuess = () => {
         let solutionArray = [...solution]
@@ -79,6 +80,10 @@ const useWordle = (solution) => {
                 setCurrentGuess(prev => prev.slice(0, -1))
             }
         }
+
+        if (key === 'Option' || key === 'Alt') {
+            setShowSolution(true)
+        }
     }
 
     const handleKeyup = ({ key }) => {
@@ -86,6 +91,10 @@ const useWordle = (solution) => {
             if (currentGuess.length < 5) {
                 setCurrentGuess(prev => prev + key.toLowerCase())
             }
+        }
+
+        if (key === 'Option' || key === 'Alt') {
+            setShowSolution(false)
         }
 
         if (key === 'Enter') {
@@ -119,7 +128,8 @@ const useWordle = (solution) => {
         history,
         guesses,
         isCorrect,
-        usedKeys
+        usedKeys,
+        showSolution
     }
 }
 
