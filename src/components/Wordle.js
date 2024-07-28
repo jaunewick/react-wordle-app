@@ -37,6 +37,7 @@ export default function Wordle({ solution }) {
 
     return (
         <div>
+            {!showSolution && <p className='hide-solution'>Hold the <i>Alt</i> or <i>Option</i> key to reveal solution</p>}
             {showSolution && <p className='show-solution'>👁👄👁 Solution - <i>{solution}</i></p>}
             <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
             <Keypad usedKeys={usedKeys} />

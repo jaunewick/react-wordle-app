@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <h1>WORDLE</h1>
-      <p>Hold the <i>Alt</i> or <i>Option</i> key to reveal solution</p>
       {solution && <Wordle solution={solution} />}
     </div>
   );

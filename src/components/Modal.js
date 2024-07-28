@@ -30,7 +30,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                     <h1>You win!</h1>
                     <p className="solution">Solution: {solution}</p>
                     <p>You found the solution in {turn} {turn > 1 ? 'guesses' : 'guess'}</p>
-                    <button className="replay" onClick={handleReplay}>Replay</button>
+                    <button className="replay" onClick={handleReplay}>Play Again</button>
                 </div>
             )}
             {!isCorrect && (
@@ -38,7 +38,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                     <h1>Game Over</h1>
                     <p className="solution">Solution: {solution}</p>
                     <p>Better luck next time!</p>
-                    <button className="replay" onClick={handleReplay}>Replay</button>
+                    <button className="replay" onClick={handleReplay}>Play Again</button>
                 </div>
             )}
         </div>
