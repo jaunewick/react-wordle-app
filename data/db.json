@@ -1,204 +1,149 @@
 {
     "solutions": [
-        {
-            "word": "apple",
-            "id": 1
-        },
-        {
-            "word": "grape",
-            "id": 2
-        },
-        {
-            "word": "pearl",
-            "id": 3
-        },
-        {
-            "word": "stone",
-            "id": 4
-        },
-        {
-            "word": "brick",
-            "id": 5
-        },
-        {
-            "word": "chair",
-            "id": 6
-        },
-        {
-            "word": "table",
-            "id": 7
-        },
-        {
-            "word": "glove",
-            "id": 8
-        },
-        {
-            "word": "spoon",
-            "id": 9
-        },
-        {
-            "word": "clock",
-            "id": 10
-        },
-        {
-            "word": "flute",
-            "id": 11
-        },
-        {
-            "word": "piano",
-            "id": 12
-        },
-        {
-            "word": "light",
-            "id": 13
-        },
-        {
-            "word": "water",
-            "id": 14
-        },
-        {
-            "word": "music",
-            "id": 15
-        },
-        {
-            "word": "candy",
-            "id": 16
-        },
-        {
-            "word": "crown",
-            "id": 17
-        },
-        {
-            "word": "beach",
-            "id": 18
-        },
-        {
-            "word": "skirt",
-            "id": 19
-        },
-        {
-            "word": "blame",
-            "id": 20
-        },
-        {
-            "word": "crisp",
-            "id": 21
-        },
-        {
-            "word": "eagle",
-            "id": 22
-        },
-        {
-            "word": "frost",
-            "id": 23
-        },
-        {
-            "word": "grind",
-            "id": 24
-        },
-        {
-            "word": "hover",
-            "id": 25
-        },
-        {
-            "word": "jelly",
-            "id": 26
-        },
-        {
-            "word": "kneel",
-            "id": 27
-        },
-        {
-            "word": "lemon",
-            "id": 28
-        },
-        {
-            "word": "mango",
-            "id": 29
-        },
-        {
-            "word": "noble",
-            "id": 30
-        },
-        {
-            "word": "ocean",
-            "id": 31
-        },
-        {
-            "word": "peace",
-            "id": 32
-        },
-        {
-            "word": "quilt",
-            "id": 33
-        },
-        {
-            "word": "robot",
-            "id": 34
-        },
-        {
-            "word": "sheep",
-            "id": 35
-        },
-        {
-            "word": "tiger",
-            "id": 36
-        },
-        {
-            "word": "unity",
-            "id": 37
-        },
-        {
-            "word": "vivid",
-            "id": 38
-        },
-        {
-            "word": "whale",
-            "id": 39
-        },
-        {
-            "word": "xenon",
-            "id": 40
-        },
-        {
-            "word": "yield",
-            "id": 41
-        },
-        {
-            "word": "zebra",
-            "id": 42
-        },
-        {
-            "word": "adore",
-            "id": 43
-        },
-        {
-            "word": "brave",
-            "id": 44
-        },
-        {
-            "word": "charm",
-            "id": 45
-        },
-        {
-            "word": "dream",
-            "id": 46
-        },
-        {
-            "word": "eager",
-            "id": 47
-        },
-        {
-            "word": "fancy",
-            "id": 48
-        },
-        {
-            "word": "giant",
-            "id": 49
-        },
-        {
-            "word": "honey",
-            "id": 50
-        }
+        {"word": "apple", "id": 1},
+        {"word": "grape", "id": 2},
+        {"word": "pearl", "id": 3},
+        {"word": "stone", "id": 4},
+        {"word": "brick", "id": 5},
+        {"word": "chair", "id": 6},
+        {"word": "table", "id": 7},
+        {"word": "glove", "id": 8},
+        {"word": "spoon", "id": 9},
+        {"word": "clock", "id": 10},
+        {"word": "flute", "id": 11},
+        {"word": "piano", "id": 12},
+        {"word": "light", "id": 13},
+        {"word": "water", "id": 14},
+        {"word": "music", "id": 15},
+        {"word": "candy", "id": 16},
+        {"word": "crown", "id": 17},
+        {"word": "beach", "id": 18},
+        {"word": "skirt", "id": 19},
+        {"word": "blame", "id": 20},
+        {"word": "crisp", "id": 21},
+        {"word": "eagle", "id": 22},
+        {"word": "frost", "id": 23},
+        {"word": "grind", "id": 24},
+        {"word": "hover", "id": 25},
+        {"word": "jelly", "id": 26},
+        {"word": "kneel", "id": 27},
+        {"word": "lemon", "id": 28},
+        {"word": "mango", "id": 29},
+        {"word": "noble", "id": 30},
+        {"word": "ocean", "id": 31},
+        {"word": "peace", "id": 32},
+        {"word": "quilt", "id": 33},
+        {"word": "robot", "id": 34},
+        {"word": "sheep", "id": 35},
+        {"word": "tiger", "id": 36},
+        {"word": "unity", "id": 37},
+        {"word": "vivid", "id": 38},
+        {"word": "whale", "id": 39},
+        {"word": "xenon", "id": 40},
+        {"word": "yield", "id": 41},
+        {"word": "zebra", "id": 42},
+        {"word": "adore", "id": 43},
+        {"word": "brave", "id": 44},
+        {"word": "charm", "id": 45},
+        {"word": "dream", "id": 46},
+        {"word": "eager", "id": 47},
+        {"word": "fancy", "id": 48},
+        {"word": "giant", "id": 49},
+        {"word": "honey", "id": 50},
+        {"word": "wheat", "id": 51},
+        {"word": "juicy", "id": 52},
+        {"word": "grasp", "id": 53},
+        {"word": "trump", "id": 54},
+        {"word": "cheer", "id": 55},
+        {"word": "purse", "id": 56},
+        {"word": "knife", "id": 57},
+        {"word": "shark", "id": 58},
+        {"word": "phone", "id": 59},
+        {"word": "frame", "id": 60},
+        {"word": "field", "id": 61},
+        {"word": "feast", "id": 62},
+        {"word": "storm", "id": 63},
+        {"word": "sharp", "id": 64},
+        {"word": "quack", "id": 65},
+        {"word": "punch", "id": 66},
+        {"word": "gleam", "id": 67},
+        {"word": "tweet", "id": 68},
+        {"word": "flock", "id": 69},
+        {"word": "thief", "id": 70},
+        {"word": "cloud", "id": 71},
+        {"word": "brisk", "id": 72},
+        {"word": "crane", "id": 73},
+        {"word": "blast", "id": 74},
+        {"word": "fetch", "id": 75},
+        {"word": "blush", "id": 76},
+        {"word": "eerie", "id": 77},
+        {"word": "shade", "id": 78},
+        {"word": "crush", "id": 79},
+        {"word": "flame", "id": 80},
+        {"word": "slime", "id": 81},
+        {"word": "swoop", "id": 82},
+        {"word": "drape", "id": 83},
+        {"word": "latch", "id": 84},
+        {"word": "slide", "id": 85},
+        {"word": "creep", "id": 86},
+        {"word": "glint", "id": 87},
+        {"word": "whirl", "id": 88},
+        {"word": "crisp", "id": 89},
+        {"word": "quake", "id": 90},
+        {"word": "glean", "id": 91},
+        {"word": "prism", "id": 92},
+        {"word": "deter", "id": 93},
+        {"word": "clash", "id": 94},
+        {"word": "glare", "id": 95},
+        {"word": "froze", "id": 96},
+        {"word": "slink", "id": 97},
+        {"word": "twist", "id": 98},
+        {"word": "shove", "id": 99},
+        {"word": "fluff", "id": 100},
+        {"word": "sweep", "id": 101},
+        {"word": "jolly", "id": 102},
+        {"word": "plush", "id": 103},
+        {"word": "chime", "id": 104},
+        {"word": "pique", "id": 105},
+        {"word": "twine", "id": 106},
+        {"word": "glide", "id": 107},
+        {"word": "crave", "id": 108},
+        {"word": "trace", "id": 109},
+        {"word": "swoop", "id": 110},
+        {"word": "glide", "id": 111},
+        {"word": "brisk", "id": 112},
+        {"word": "trace", "id": 113},
+        {"word": "twirl", "id": 114},
+        {"word": "glare", "id": 115},
+        {"word": "trill", "id": 116},
+        {"word": "frill", "id": 117},
+        {"word": "shank", "id": 118},
+        {"word": "punch", "id": 119},
+        {"word": "wrack", "id": 120},
+        {"word": "clamp", "id": 121},
+        {"word": "glaze", "id": 122},
+        {"word": "slink", "id": 123},
+        {"word": "throb", "id": 124},
+        {"word": "quell", "id": 125},
+        {"word": "prong", "id": 126},
+        {"word": "gloat", "id": 127},
+        {"word": "bloom", "id": 128},
+        {"word": "spine", "id": 129},
+        {"word": "cramp", "id": 130},
+        {"word": "frisk", "id": 131},
+        {"word": "clang", "id": 132},
+        {"word": "swoop", "id": 133},
+        {"word": "prong", "id": 134},
+        {"word": "glide", "id": 135},
+        {"word": "fling", "id": 136},
+        {"word": "plumb", "id": 137},
+        {"word": "crisp", "id": 138},
+        {"word": "brawn", "id": 139},
+        {"word": "slink", "id": 140},
+        {"word": "trill", "id": 141},
+        {"word": "glint", "id": 142},
+        {"word": "frill", "id": 143},
+        {"word": "shank", "id": 144},
+        {"word": "punch", "id": 145}
     ]
 }
