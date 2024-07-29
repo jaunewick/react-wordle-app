@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
+
+// components
 import Wordle from "./components/Wordle";
+
+// libraries
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [solution, setSolution] = useState(null)
@@ -17,6 +23,7 @@ function App() {
     <div className="App">
       <h1>WORDLE</h1>
       {solution && <Wordle solution={solution} />}
+      <ToastContainer />
     </div>
   );
 }

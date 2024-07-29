@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useWindowSize } from '@react-hook/window-size'
+
+// libraries
 import Confetti from 'react-confetti'
 
 export default function Modal({ isCorrect, turn, solution }) {

@@ -1,3 +1,4 @@
+// components
 import Row from './Row'
 
 export default function Grid({ currentGuess, guesses, turn }) {
