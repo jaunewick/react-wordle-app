@@ -5,7 +5,24 @@ A fun and highly-addictive mini project that replicates the popular word-guessin
 ## Live Demo
 ![react-wordle demo](.gif/wordle-demo.gif)
 
-## Running the Application
+## Getting started
+Follow the steps below to set up and run the project locally.
+
+### Prerequisites
+- Node.js and npm installed on your machine.
+
+### Installation
+1. **Clone the repository :**
+```bash
+git clone https://github.com/jaunewick/react-wordle-app.git
+cd react-wordle-app
+```
+2.	**Install dependencies :**
+```bash
+npm install
+```
+
+### Running the Application
 1. **Start the client :**
 ```bash
 npm start
